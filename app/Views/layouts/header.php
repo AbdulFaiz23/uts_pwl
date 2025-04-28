@@ -1,19 +1,17 @@
 <header class="bg-white shadow-sm py-3 px-4 d-flex justify-content-between align-items-center sticky-top">
   <div class="d-flex align-items-center">
-    <!-- Tombol Menu Sidebar yang lebih menonjol -->
+    
     <button class="btn btn-primary me-3 d-md-none d-flex align-items-center justify-content-center" 
             style="width: 40px; height: 40px; border-radius: 10px;">
       <i class="fas fa-bars text-white"></i>
     </button>
     
-    <!-- Judul dengan desain modern -->
     <div class="d-flex align-items-center">
       <h5 class="mb-0 fw-bold text-gray-800">Task Manager</h5>
       <span class="badge bg-primary bg-opacity-10 text-primary ms-2" style="font-size: 0.75rem;"></span>
     </div>
   </div>
   
-  <!-- User Menu dengan desain premium -->
   <div class="dropdown">
     <button class="btn p-0 position-relative" data-bs-toggle="dropdown" aria-expanded="false">
       <div class="d-flex align-items-center bg-primary bg-opacity-10 px-3 py-2 rounded-pill hover-effect">
@@ -30,10 +28,10 @@
       </span>
     </button>
     
-    <!-- Dropdown Menu dengan desain premium -->
+    
     <ul class="dropdown-menu dropdown-menu-end shadow-lg mt-2 border-0 animate__animated animate__fadeIn" 
         style="min-width: 240px; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.05);">
-      <!-- Header Profil tanpa gambar -->
+      
       <li class="dropdown-header bg-primary bg-opacity-5 px-3 py-3">
         <div class="d-flex align-items-center">
           <div class="flex-shrink-0 me-3">
@@ -52,7 +50,7 @@
       
       <li><hr class="dropdown-divider my-1" style="border-color: rgba(0,0,0,0.05);"></li>
       
-      <!-- Menu Items dengan efek hover modern -->
+      
       <li>
         <a class="dropdown-item px-3 py-2 d-flex align-items-center menu-item-hover" href="#">
           <div class="icon-wrapper bg-primary bg-opacity-10 me-3 p-2 rounded" style="min-width: 36px;">
@@ -94,7 +92,7 @@
       
       <li><hr class="dropdown-divider my-1" style="border-color: rgba(0,0,0,0.05);"></li>
       
-      <!-- Logout dengan efek hover yang jelas -->
+      
       <li>
         <form action="<?= site_url('auth/logout') ?>" method="post">
           <?= csrf_field() ?>
@@ -115,7 +113,7 @@
 </header>
 
 <style>
-  /* Custom CSS untuk tampilan premium */
+  
   .avatar-icon {
     position: relative;
     display: inline-block;

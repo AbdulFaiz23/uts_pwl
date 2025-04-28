@@ -178,5 +178,5 @@
 <?= $this->endSection() ?>
 
 <?= $this->section('scripts') ?>
-<!-- Tidak ada script yang diperlukan -->
+
 <?= $this->endSection() ?>

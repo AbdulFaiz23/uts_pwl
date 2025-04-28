@@ -36,5 +36,4 @@ $routes->group('user', ['filter' => 'role:user'], function($routes) {
     $routes->get('tugas', 'Tugas::index');
 });
 
-// ==== Default Route (optional) ====
-// $routes->get('/', 'Home::index'); // Kalau mau buat halaman landing umum
+
